@@ -1,9 +1,9 @@
 extends Node # instancia a classe Node2D
 
-var status = 1
-var vscore = 0
-var x = 1.5 
-var y = 1.5 
+var status = 1 # Indicação de o jogo está ativo ou inativo. 1 indica jogando e 0 gameover.
+var vscore = 0 # Indicação do placar
+var x = 1.5 # Velocidade
+var y = 1.5 # Peso do dragão. Quando não se aperta nenhum comando o dragão cai com a força do seu peso. 
 
 # executa essa função ao carregar o jogo
 func _ready():
